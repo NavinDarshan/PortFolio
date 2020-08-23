@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Switch, Route} from "react-router-dom";
+import { Switch, Route, HashRouter} from "react-router-dom";
 import { PageTransition } from "@steveeeie/react-page-transition";
 import "./styles.css";
 import Home1 from './Home/Home';
@@ -13,7 +13,7 @@ import * as serviceWorker from './serviceWorker';
 class App extends React.Component{
   render(){
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Route
           render={({ location }) => {
             return (
@@ -31,7 +31,7 @@ class App extends React.Component{
             );
           }}
         />
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

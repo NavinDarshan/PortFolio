@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import {Link} from "react-router-dom"
 import Navigation from '../Product/Navbar'
 import Java from './icons/Java.png';
 import Python from "./icons/Python.png";
