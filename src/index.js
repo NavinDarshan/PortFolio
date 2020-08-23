@@ -37,6 +37,6 @@ class App extends React.Component{
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Home1 />, document.getElementById("root"));
 
 serviceWorker.unregister();
