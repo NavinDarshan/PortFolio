@@ -9,28 +9,31 @@ import About from './About/about'
 import Contact from './About/contact'
 import * as serviceWorker from './serviceWorker';
 
-function App() {
-  return (
-    <BrowserRouter>
-      <Route
-        render={({ location }) => {
-          return (
-            <PageTransition
-              preset="roomToBottom"
-              transitionKey={location.pathname}
-            >
-              <Switch location={location}>
-                <Route exact path="/" component={Home1} />
-                <Route exact path="/product" component={Product1} />
-                <Route exact path = "/about" component = {About} />
-                <Route excat path = "/contact" component = {Contact} />
-              </Switch>
-            </PageTransition>
-          );
-        }}
-      />
-    </BrowserRouter>
-  );
+
+class App extends React.Component{
+  render(){
+    return (
+      <BrowserRouter>
+        <Route
+          render={({ location }) => {
+            return (
+              // <PageTransition
+              //   preset="roomToBottom"
+              //   transitionKey={location.pathname}
+              // >
+                <Switch location={location}>
+                  <Route exact path="/" component={Home1} />
+                  <Route  path="/product" component={Product1} />
+                  <Route  path = "/about" component = {About} />
+                  <Route  path = "/contact" component = {Contact} />
+                </Switch>
+              // </PageTransition>
+            );
+          }}
+        />
+      </BrowserRouter>
+    );
+  }
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
