@@ -1,0 +1,7 @@
+.bgpicture{
+    background-image: url('./picture3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-color: black;
+}

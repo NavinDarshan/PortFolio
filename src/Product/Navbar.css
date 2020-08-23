@@ -1,0 +1,13 @@
+.btn-space {
+    margin-right: 5px;
+}
+.navbar-custom{
+    background-color: transparent;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+.textcolour{
+    color: aliceblue;
+}
