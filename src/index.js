@@ -14,6 +14,7 @@ class App extends React.Component{
   render(){
     return (
       <BrowserRouter>
+      <Route exact path="/" component={Home1} />
         <Route
           render={({ location }) => {
             return (
@@ -22,7 +23,7 @@ class App extends React.Component{
               //   transitionKey={location.pathname}
               // >
                 <Switch location={location}>
-                  <Route exact path="/" component={Home1} />
+                  {/* <Route exact path="/" component={Home1} /> */}
                   <Route  path="/product" component={Product1} />
                   <Route  path = "/about" component = {About} />
                   <Route  path = "/contact" component = {Contact} />
