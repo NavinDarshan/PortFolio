@@ -7,6 +7,7 @@ import Home1 from './Home/Home';
 import Product1 from './Product/Products';
 import About from './About/about'
 import Contact from './About/contact'
+import * as serviceWorker from './serviceWorker';
 
 function App() {
   return (
@@ -33,3 +34,5 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
+
+serviceWorker.unregister();
