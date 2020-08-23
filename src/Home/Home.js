@@ -17,10 +17,8 @@ export default class Home extends Component {
         timing="ease"
         iteration="1"
         fillMode="none">
-         <h1>Home page</h1>
-          <p>A portfolio website created by me and my friend Gokul Where we used </p>
-          <p>to learn java first and we jumped into web development we will be </p>
-          <p>doing both the front-end and the backend also</p>
+        <p>Hello my name is NavinDarshan</p>
+        <p>I am A fullStack Web developer also an Java Developer</p>
         </MovingText>
         <Link to = "/about" className = "btn btn-success" >View More</Link>
         </div>

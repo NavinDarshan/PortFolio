@@ -1,5 +1,12 @@
 html,
 body,
 #root {
-  height: 125%;
+  height: 100%;
+}
+@media only screen and (max-width : 769px){
+  html,
+  body,
+  #root{
+    height: 140%;
+  }
 }

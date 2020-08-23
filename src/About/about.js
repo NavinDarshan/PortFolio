@@ -49,7 +49,6 @@ class about extends Component {
         return (
             <div className = "bg bg-dark" style = {{height : "400vh"}}>
                 <Navigation />
-                <Link to =  "/product"><h2 className = "text-right text-white mr-5">My Works</h2></Link>
                 <div className="container">
                     <h2 className = "text-center text-white">MY SKILLS</h2>
                     <div>
