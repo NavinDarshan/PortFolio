@@ -7,6 +7,7 @@ import Home1 from './Home/Home';
 import Product1 from './Product/Products';
 import About from './About/about'
 import Contact from './About/contact'
+import * as serviceWorker from './serviceWorker';
 
 
 class App extends React.Component{
@@ -38,7 +39,7 @@ class App extends React.Component{
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
