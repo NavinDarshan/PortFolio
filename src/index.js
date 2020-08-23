@@ -37,6 +37,11 @@ class App extends React.Component{
   }
 }
 
-ReactDOM.render(<Home1 />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 serviceWorker.unregister();
