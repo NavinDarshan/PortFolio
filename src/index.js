@@ -39,7 +39,7 @@ class App extends React.Component{
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home1 />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
