@@ -18,7 +18,7 @@ export default class Home extends Component {
         iteration="1"
         fillMode="none">
         <p>Hello my name is NavinDarshan</p>
-        <p>I am A fullStack Web developer also an Java Developer</p>
+        <p>I am a Full-Stack Web developer and a Java Developer</p>
         </MovingText>
         <Link to = "/about" className = "btn btn-success" >View More</Link>
         </div>

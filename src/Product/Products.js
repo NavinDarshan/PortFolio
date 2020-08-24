@@ -12,7 +12,7 @@ class Products extends Component {
             <div className="bgpicture">
                 <Navigation />
                 <h2 className = "text-center text-white mt-3 mb-3">My Dedicated Works</h2>
-                <Roll left>
+                <Roll left duration = {2000}>
                 <div className="container mt-5">
                     <div className="row">
                         <div className="col-md mb-5">

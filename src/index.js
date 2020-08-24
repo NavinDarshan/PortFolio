@@ -18,7 +18,7 @@ class App extends React.Component{
           render={({ location }) => {
             return (
               <PageTransition
-                preset="roomToBottom"
+                preset="fall"
                 transitionKey={location.pathname}
               >
                 <Switch location={location}>
