@@ -10,10 +10,10 @@ const Navigation = (props) => {
             <Navbar className="navbar-custom">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Nav>
-                        <Link className="font text-white mt-2 ml-2" to="/">HOME</Link>
-                        <Link className="font text-white mt-2 ml-3" to="/about">SKILLS</Link>
-                        <Link className="font text-white mt-2 ml-3" to="/Contact">CONTACT</Link>
-                        <Link className="font text-white mt-2 ml-3" to="/product">MY PROJECTS</Link>
+                        <Link className="font text-white width" to="/">HOME</Link>
+                        <Link className="font text-white width" to="/about">SKILLS</Link>
+                        <Link className="font text-white width" to="/Contact">CONTACT</Link>
+                        <Link className="font text-white width" to="/product">MY PROJECTS</Link>
                     </Nav>
             </Navbar>
         </div>

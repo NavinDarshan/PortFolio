@@ -19,7 +19,7 @@ class about extends Component {
         super(props);
         this.state = {
             renderedThings: [],
-            things: ["Java", "Html", "CSS", "BootStrap", "JavaScript", "NodeJs", "react","Redux", "Mongo","RestfulAPI","Github", "Python"],
+            things: ["Java", "Html", "CSS", "BootStrap", "JavaScript", "NodeJs", "React","Redux", "Mongo","RestfulAPI","Git", "Python"],
             itemsRendered: 0,
             images: [Java, Html, CSS,BootStrap, JavaScript, NodeJS, react,Redux, Mongo,RestfulAPI,Github, Python]
         }
@@ -58,7 +58,7 @@ class about extends Component {
                                 this.state.renderedThings.map((thing, index) => (
                                     <div className = "col-4 col-md-3">
                                     <Fade left>
-                                    <img alt = {thing} className = "mt-5" src = {this.state.images[index]} style = {{width : "100px" , height : "100px"}}></img>
+                                    <img alt = {thing} className = "forimg mt-5" src = {this.state.images[index]}></img>
                                     <div key={index} className = "mt-2 ml-4 text-white">{thing}</div>
                                     </Fade>
                                     </div>

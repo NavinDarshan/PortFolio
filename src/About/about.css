@@ -18,6 +18,17 @@
 .bg{
   height: 100%;
 }
+.forimg{
+  height: 100px;
+  width: 100px;
+}
+
+@media only screen and (max-width : 769px){
+  .forimg{
+    height: 80px;
+    width: 80px;
+  }
+}
 
 @media only screen and (min-width : 769px){
   .forbox{
