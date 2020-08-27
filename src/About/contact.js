@@ -8,7 +8,7 @@ class contact extends Component {
         return (
             <div className="bg bg-dark">
                 <Navigation />
-                <h5 className="text-white text-center">There is no failure except in no longer trying.” “It always seems impossible until it's done.</h5>
+                <h5 className="text-white text-center mt-5 mb-3">There is no failure except in no longer trying.” “It always seems impossible until it's done.</h5>
                 <Rotate bottom right cascade duration = {1500}>
                 <div className="forcontact text-center">
                     <a className=" d-flex justify-content-start forbox pr-2 pl-2" href="mailto:navindarshanvec@gmail.com" target="blank"><i className="far fa-envelope icon foricon pr-2 pl-2"></i><label className=" text-white  text-white pl-2 mt-2">Mailme</label></a><br />
