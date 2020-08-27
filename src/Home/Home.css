@@ -11,7 +11,7 @@
 .Home .lander p {
     color: whitesmoke;
     font-size: x-large;
-    text-shadow: 1px 1px #FFFFFF;
+    text-shadow: 1.2px 1.2px #FFFFFF;
 }
 .picture{
     background-image: url('./picture2.jpg'); 

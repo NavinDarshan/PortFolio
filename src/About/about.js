@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Rotate from 'react-reveal/Rotate';
+import Fade from 'react-reveal/Fade';
 import Navigation from '../Product/Navbar'
 import Java from './icons/Java.png';
 import Python from "./icons/Python.png";
@@ -56,10 +56,10 @@ class about extends Component {
                             <div className="row">{
                                 this.state.renderedThings.map((thing, index) => (
                                     <div className = "col-4 col-md-3">
-                                    <Rotate bottom left>
+                                    <Fade left>
                                     <img alt = {thing} className = "mt-5" src = {this.state.images[index]} style = {{width : "100px" , height : "100px"}}></img>
                                     <div key={index} className = "mt-2 ml-4 text-white">{thing}</div>
-                                    </Rotate>
+                                    </Fade>
                                     </div>
                                 ))
                             }</div>

@@ -39,7 +39,7 @@ class Products extends Component {
                             <div className="card forcard text-white">
                                 <img className="card-img-top" src={ecommercepage} alt="Card" width="100" height="190"></img>
                                 <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
+                                    <h5 className="card-title">Ecommerce</h5>
                                     <p className="card-text">A Simple ecommerce app which we can buy your lovely items</p>
                                     <a href = "http://navin-ecommerce.herokuapp.com/" target = "blank" className = "btn btn-primary">View Site</a>
                                 </div>
