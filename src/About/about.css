@@ -18,3 +18,13 @@
 .bg{
   height: 100%;
 }
+
+@media only screen and (min-width : 769px){
+  .forbox{
+    border: solid 1px black;
+    height: 40px;
+    width: 250px;  
+    margin-left: 39%;
+    display: inline-block;
+  }
+}

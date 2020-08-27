@@ -11,6 +11,7 @@ import NodeJS from "./icons/NodeJs"
 import react from "./icons/React"
 import Redux from "./icons/Redux"
 import Mongo from './icons/Mongo'
+import Github from './icons/Github.png'
 import RestfulAPI from './icons/Restful API'
 
 class about extends Component {
@@ -18,9 +19,9 @@ class about extends Component {
         super(props);
         this.state = {
             renderedThings: [],
-            things: ["Java", "Html", "CSS", "BootStrap", "JavaScript", "NodeJs", "react","Redux", "Mongo","RestfulAPI", "Python"],
+            things: ["Java", "Html", "CSS", "BootStrap", "JavaScript", "NodeJs", "react","Redux", "Mongo","RestfulAPI","Github", "Python"],
             itemsRendered: 0,
-            images: [Java, Html, CSS,BootStrap, JavaScript, NodeJS, react,Redux, Mongo,RestfulAPI, Python]
+            images: [Java, Html, CSS,BootStrap, JavaScript, NodeJS, react,Redux, Mongo,RestfulAPI,Github, Python]
         }
         this.updateRenderedThings = this.updateRenderedThings.bind(this);
     }
