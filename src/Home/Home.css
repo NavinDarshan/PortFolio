@@ -13,6 +13,7 @@
     font-size: x-large;
     text-shadow: 2px 0px 5px rgb(34,29,29),
                  4px 0px 10px rgb(77,75,75);
+    font-size: 30px;
 }
 .picture{
     background-image: url('./picture2.jpg'); 

@@ -51,15 +51,15 @@ class about extends Component {
             <div className = "bg bg-dark" style = {{height : "400vh"}}>
                 <Navigation />
                 <div className="container">
-                    <h2 className = "text-center text-white">MY SKILLS</h2>
+                    <h2 className = "text-center text-white forfont">My Skills</h2>
                     <div>
                         <div>
                             <div className="row">{
                                 this.state.renderedThings.map((thing, index) => (
-                                    <div className = "col-4 col-md-3">
+                                    <div className = "col-4 col-md-3 text-center">
                                     <Fade left>
                                     <img alt = {thing} className = "forimg mt-5" src = {this.state.images[index]}></img>
-                                    <div key={index} className = "mt-2 ml-4 text-white">{thing}</div>
+                                    <p key={index} className = "text-white mt-4">{thing}</p>
                                     </Fade>
                                     </div>
                                 ))

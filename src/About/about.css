@@ -39,3 +39,8 @@
     display: inline-block;
   }
 }
+.forfont{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 60px;
+  font-weight: 90px;
+}
