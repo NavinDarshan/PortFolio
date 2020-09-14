@@ -12,7 +12,7 @@ const Navigation = (props) => {
                     <Nav>
                         <Link className="font text-white width" to="/">HOME</Link>
                         <Link className="font text-white width" to="/about">SKILLS</Link>
-                        <Link className="font text-white width" to="/Contact">CONTACT</Link>
+                        {/* <Link className="font text-white width" to="/Contact">CONTACT</Link> */}
                         <Link className="font text-white width" to="/product">MY PROJECTS</Link>
                     </Nav>
             </Navbar>

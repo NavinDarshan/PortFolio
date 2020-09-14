@@ -13,7 +13,8 @@ import Redux from "./icons/Redux"
 import Mongo from './icons/Mongo'
 import Github from './icons/Github.png'
 import RestfulAPI from './icons/Restful API'
-
+import Contact from './contact'
+import ScrollLock, { TouchScrollable } from 'react-scrolllock';
 class about extends Component {
     constructor(props) {
         super(props);
@@ -29,7 +30,7 @@ class about extends Component {
         this.scheduleNextUpdate()
     }
     scheduleNextUpdate() {
-        this.timer = setTimeout(this.updateRenderedThings, 700)
+        this.timer = setTimeout(this.updateRenderedThings, 100)
     }
     updateRenderedThings() {
         console.log(this.state);
@@ -48,18 +49,18 @@ class about extends Component {
     }
     render() {
         return (
-            <div className = "bg bg-dark" style = {{height : "400vh"}}>
+            <div className = "bg bg-dark selectionarea" style = {{height : "400vh"}}>
                 <Navigation />
                 <div className="container">
-                    <h2 className = "text-center text-white forfont">My Skills</h2>
+                    <h2 className = "text-center text-white forfont">MY SKILLS</h2>
                     <div>
                         <div>
                             <div className="row">{
                                 this.state.renderedThings.map((thing, index) => (
-                                    <div className = "col-4 col-md-3 text-center">
+                                    <div className = "col-6 col-md-3 text-center">
                                     <Fade left>
                                     <img alt = {thing} className = "forimg mt-5" src = {this.state.images[index]}></img>
-                                    <p key={index} className = "text-white mt-4">{thing}</p>
+                                    <p key={index} className = "text-white mt-4" style = {{fontSize : "25px"}}>{thing}</p>
                                     </Fade>
                                     </div>
                                 ))
@@ -67,6 +68,11 @@ class about extends Component {
                         </div>
                     </div>
                 </div>
+                <div>
+                </div>
+                <Fade delay = {3000}>
+                    <Contact />
+                </Fade>
             </div>
         )
     }
