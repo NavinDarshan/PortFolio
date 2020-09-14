@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd6428d1e921a2ebaf90e2f23d4b54b1",
+    "revision": "b5c4e3c00839fb01f9b2a6e5e32e8a46",
     "url": "/PortFolio/index.html"
   },
   {
-    "revision": "bf999c98cf563170aa22",
-    "url": "/PortFolio/static/css/main.c2aba7cc.chunk.css"
+    "revision": "5e0cd4056c4e535c7150",
+    "url": "/PortFolio/static/css/main.32744318.chunk.css"
   },
   {
-    "revision": "f53255396e94855233e5",
-    "url": "/PortFolio/static/js/2.8b54dc57.chunk.js"
+    "revision": "240bac7d5ec0babdddbb",
+    "url": "/PortFolio/static/js/2.9bd32149.chunk.js"
   },
   {
-    "revision": "bf999c98cf563170aa22",
-    "url": "/PortFolio/static/js/main.282aeaf2.chunk.js"
+    "revision": "5e0cd4056c4e535c7150",
+    "url": "/PortFolio/static/js/main.d9578eb1.chunk.js"
   },
   {
     "revision": "0e3f674c2e2d5f68e62c",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PortFolio/static/media/Restful API.677600eb.bin"
   },
   {
+    "revision": "ca58f930ad31f2b0d98843b0fa20a954",
+    "url": "/PortFolio/static/media/Resume.ca58f930.pdf"
+  },
+  {
     "revision": "7050448017ea765495be792ef59c50a2",
     "url": "/PortFolio/static/media/colourgame.70504480.png"
   },
@@ -82,5 +86,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1bcdb1f0e1b57e69fa9cdb7783727462",
     "url": "/PortFolio/static/media/picture3.1bcdb1f0.jpg"
+  },
+  {
+    "revision": "9fff2850abca218bd01f6837d88cb231",
+    "url": "/PortFolio/static/media/quotepicture.9fff2850.jpg"
   }
 ]);

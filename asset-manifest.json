@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.c2aba7cc.chunk.css",
-    "main.js": "/PortFolio/static/js/main.282aeaf2.chunk.js",
-    "main.js.map": "/PortFolio/static/js/main.282aeaf2.chunk.js.map",
+    "main.css": "/PortFolio/static/css/main.32744318.chunk.css",
+    "main.js": "/PortFolio/static/js/main.d9578eb1.chunk.js",
+    "main.js.map": "/PortFolio/static/js/main.d9578eb1.chunk.js.map",
     "runtime~main.js": "/PortFolio/static/js/runtime~main.4aeb350c.js",
     "runtime~main.js.map": "/PortFolio/static/js/runtime~main.4aeb350c.js.map",
-    "static/js/2.8b54dc57.chunk.js": "/PortFolio/static/js/2.8b54dc57.chunk.js",
-    "static/js/2.8b54dc57.chunk.js.map": "/PortFolio/static/js/2.8b54dc57.chunk.js.map",
+    "static/js/2.9bd32149.chunk.js": "/PortFolio/static/js/2.9bd32149.chunk.js",
+    "static/js/2.9bd32149.chunk.js.map": "/PortFolio/static/js/2.9bd32149.chunk.js.map",
     "index.html": "/PortFolio/index.html",
-    "precache-manifest.6fcdfc7513c5340ed821011643723e03.js": "/PortFolio/precache-manifest.6fcdfc7513c5340ed821011643723e03.js",
+    "precache-manifest.61b300820ac0a5d0118bb44f0a567507.js": "/PortFolio/precache-manifest.61b300820ac0a5d0118bb44f0a567507.js",
     "service-worker.js": "/PortFolio/service-worker.js",
-    "static/css/main.c2aba7cc.chunk.css.map": "/PortFolio/static/css/main.c2aba7cc.chunk.css.map",
+    "static/css/main.32744318.chunk.css.map": "/PortFolio/static/css/main.32744318.chunk.css.map",
     "static/media/BootStrap": "/PortFolio/static/media/BootStrap.531b3b9a.bin",
     "static/media/CSS": "/PortFolio/static/media/CSS.e7028814.bin",
     "static/media/Html": "/PortFolio/static/media/Html.93a90f95.bin",
@@ -22,10 +22,12 @@
     "static/media/React": "/PortFolio/static/media/React.4603f0d1.bin",
     "static/media/Redux": "/PortFolio/static/media/Redux.b665fa8c.bin",
     "static/media/Restful API": "/PortFolio/static/media/Restful API.677600eb.bin",
+    "static/media/Resume.pdf": "/PortFolio/static/media/Resume.ca58f930.pdf",
     "static/media/colourgame.png": "/PortFolio/static/media/colourgame.70504480.png",
     "static/media/contactHomePage.png": "/PortFolio/static/media/contactHomePage.8aee1716.png",
     "static/media/ecommerce homePage.png": "/PortFolio/static/media/ecommerce homePage.1c2aaa03.png",
     "static/media/Home.css": "/PortFolio/static/media/picture2.144c81b7.jpg",
-    "static/media/Products.css": "/PortFolio/static/media/picture3.1bcdb1f0.jpg"
+    "static/media/Products.css": "/PortFolio/static/media/picture3.1bcdb1f0.jpg",
+    "static/media/quotepicture.jpg": "/PortFolio/static/media/quotepicture.9fff2850.jpg"
   }
 }
