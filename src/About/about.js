@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Fade from 'react-reveal/Fade';
-import Navigation from '../Product/Navbar'
+import Navigation from '../components/Navbar'
 import Java from './icons/Java.png';
 import Python from "./icons/Python.png";
 import Html from "./icons/Html"
@@ -14,7 +14,6 @@ import Mongo from './icons/Mongo'
 import Github from './icons/Github.png'
 import RestfulAPI from './icons/Restful API'
 import Contact from './contact'
-import ScrollLock, { TouchScrollable } from 'react-scrolllock';
 class about extends Component {
     constructor(props) {
         super(props);

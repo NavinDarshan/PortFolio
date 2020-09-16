@@ -7,6 +7,20 @@ body,
   html,
   body,
   #root{
-    height: 132%;
+    height: 124%;
+  }
+}
+@media only screen and (max-width : 425px){
+  html,
+  body,
+  #root{
+    height: 150%;
+  }
+}
+@media only screen and (max-width : 325px){
+  html,
+  body,
+  #root{
+    height: 153%;
   }
 }

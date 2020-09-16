@@ -1,11 +1,14 @@
 import React, { Component } from "react";
  import "./Home.css";
  import {Link } from "react-router-dom";
+ import ScrollLock, { TouchScrollable } from 'react-scrolllock';
 import MovingText from 'react-moving-text'
 
 export default class Home extends Component {
   render() {
     return (
+      <div>
+      <ScrollLock>
       <div className="Home picture">
         <div className="lander">
         <MovingText
@@ -22,6 +25,8 @@ export default class Home extends Component {
         </MovingText>
         <Link to = "/about" className = "btn btn-success" >View More</Link>
         </div>
+      </div>
+      </ScrollLock>
       </div>
     );
   }

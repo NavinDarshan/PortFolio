@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navigation from './Navbar';
+import Navigation from '../components/Navbar';
 import contactpage from './contactHomePage.png';
 import ecommercepage from './ecommerce homePage.png'
 import ColorGame from './colourgame.png'
