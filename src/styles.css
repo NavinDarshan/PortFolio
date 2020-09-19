@@ -14,13 +14,13 @@ body,
   html,
   body,
   #root{
-    height: 150%;
+    height: 132%;
   }
 }
-@media only screen and (max-width : 325px){
+/* @media only screen and (max-width : 325px){
   html,
   body,
   #root{
     height: 153%;
   }
-}
+} */

@@ -29,7 +29,7 @@ class about extends Component {
         this.scheduleNextUpdate()
     }
     scheduleNextUpdate() {
-        this.timer = setTimeout(this.updateRenderedThings, 100)
+        this.timer = setTimeout(this.updateRenderedThings, 200)
     }
     updateRenderedThings() {
         console.log(this.state);
