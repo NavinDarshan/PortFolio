@@ -51,7 +51,7 @@ class about extends Component {
             <div className = "bg bg-dark selectionarea" style = {{height : "400vh"}}>
                 <Navigation />
                 <div className="container">
-                    <h2 className = "text-center text-white forfont">MY SKILLS</h2>
+                    <h2 className = "text-center text-white forfont mt-3" style = {{fontWeight : "800px"}}>MY SKILLS</h2>
                     <div>
                         <div>
                             <div className="row">{
@@ -59,7 +59,7 @@ class about extends Component {
                                     <div className = "col-6 col-md-3 text-center">
                                     <Fade left>
                                     <img alt = {thing} className = "forimg mt-5" src = {this.state.images[index]}></img>
-                                    <p key={index} className = "text-white mt-4" style = {{fontSize : "25px"}}>{thing}</p>
+                                    <p key={index} className = "text-white mt-4" style = {{fontSize : "20px"}}>{thing}</p>
                                     </Fade>
                                     </div>
                                 ))
@@ -77,72 +77,4 @@ class about extends Component {
     }
 }
 export default about;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React, { Component } from "react";
-// import Navigation from '../Product/Navbar';
-// import './about.css';
-// import java from './icons/java icon.png'
-// import Delay from 'react-delay'
-
-// class about extends Component {
-//     constructor(props) {
-//         super(props)
-//         this.state = {
-//             skills: ["Java", "Python"]
-//         }
-//     }
-//     myfunction() {
-//         var i = 0;
-//         console.log("entered")
-//         var skillset = ["python", "koltin"]
-//         var temp = [];
-//         temp[i] = skillset[i];
-//         this.setState({ skills: temp });
-//         i++;
-//     }
-//     timerfunction() {
-//         setTimeout(() => this.myfunction(), 100);
-//     }
-
-//     //try for loop inside return but assign i outside the return
-//     render() {
-//         const { skills } = this.state;
-//         return (
-//             <div>
-//                 {skills.map((skill, i) => {
-
-//                     return (
-//                         <Delay wait={2000}>
-//                             <div style={{ transitionDelay: "1s" }}>
-//                                 <p>{skill}</p>
-//                             </div>
-//                         </Delay>
-
-//                     )
-
-//                 })}
-//             </div>
-//         )
-//     }
-// }
-// export default about;
 
