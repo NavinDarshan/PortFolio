@@ -1,33 +1,19 @@
 html,
 body,
 #root {
-  height: 170vh;
+  height: 110%;
 }
 @media only screen and (max-width : 769px){
   html,
   body,
   #root{
-    height: 125%;
+    height: 130%;
   }
 }
- @media only screen and (max-width : 425px){
+@media only screen and (max-width : 425px){
   html,
   body,
   #root{
-    height: 135%;
+    height: 142%;
   }
 }
-@media only screen and (max-width : 375px){
-  html,
-  body,
-  #root{
-    height: 364vh;
-  }
-} 
-  @media only screen and (max-width : 325px){
-  html,
-  body,
-  #root{
-    height: 380vh;
-  }
-} 
