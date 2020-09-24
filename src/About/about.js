@@ -13,6 +13,7 @@ import Redux from "./icons/Redux"
 import Mongo from './icons/Mongo'
 import Github from './icons/Github.png'
 import RestfulAPI from './icons/Restful API'
+import ScrollLock , {TouchScrollable}from 'react-scrolllock';
 
 class about extends Component {
     constructor(props) {
@@ -48,6 +49,7 @@ class about extends Component {
     }
     render() {
         return (
+            <div>
             <div className = "bg bg-dark" style = {{height : "400vh"}}>
                 <Navigation />
                 <div className="container">
@@ -68,76 +70,8 @@ class about extends Component {
                     </div>
                 </div>
             </div>
+            </div>
         )
     }
 }
 export default about;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React, { Component } from "react";
-// import Navigation from '../Product/Navbar';
-// import './about.css';
-// import java from './icons/java icon.png'
-// import Delay from 'react-delay'
-
-// class about extends Component {
-//     constructor(props) {
-//         super(props)
-//         this.state = {
-//             skills: ["Java", "Python"]
-//         }
-//     }
-//     myfunction() {
-//         var i = 0;
-//         console.log("entered")
-//         var skillset = ["python", "koltin"]
-//         var temp = [];
-//         temp[i] = skillset[i];
-//         this.setState({ skills: temp });
-//         i++;
-//     }
-//     timerfunction() {
-//         setTimeout(() => this.myfunction(), 100);
-//     }
-
-//     //try for loop inside return but assign i outside the return
-//     render() {
-//         const { skills } = this.state;
-//         return (
-//             <div>
-//                 {skills.map((skill, i) => {
-
-//                     return (
-//                         <Delay wait={2000}>
-//                             <div style={{ transitionDelay: "1s" }}>
-//                                 <p>{skill}</p>
-//                             </div>
-//                         </Delay>
-
-//                     )
-
-//                 })}
-//             </div>
-//         )
-//     }
-// }
-// export default about;
-
